@@ -10,7 +10,7 @@ function setup() {
 function draw() 
 {
   background(51);
-  if(ball.position.x<=0 || ball.position.x>=width)
+  if(ball.position.x<=50 || ball.position.x>=350)
   {
     vx= -vx;
   }
@@ -19,4 +19,3 @@ function draw()
   drawSprites();
 
 }
-
